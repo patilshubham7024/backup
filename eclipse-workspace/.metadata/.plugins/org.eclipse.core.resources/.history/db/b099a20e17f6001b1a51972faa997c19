@@ -1,0 +1,23 @@
+
+public class PayApp {
+	void payBill(long cno, int cvv, String exdate) {
+		if(cno!=12345) {
+			System.out.println("Please enter valid card number");
+		}
+	}
+	void payBill(String upi) {
+		
+	}
+	void payBill(String uid, String pwd) {
+		
+	}
+	void payBill() {
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hi SHUBHAM\nHow are you today??");
+		
+	}
+
+}

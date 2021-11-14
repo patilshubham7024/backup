@@ -1,0 +1,25 @@
+import junit.framework.Test;
+
+public class MyProg {
+	 int a=124;
+	short b= 32767;
+	String name="Shubham";
+	MyProg m=new MyProg(222);
+	//System.out.println(a);
+	MyProg(int x){
+	
+		System.out.println(a+"\n"+x);
+	}
+	public static void main(String[] args){
+		int a = 0;
+		int b = 0;
+		Test t = new Test(10, 20);
+		System.out.println("a = " + t.a + "\nb = " + b);
+		for(a=0;a<=10;a++) {
+			int c=0;
+			if (c==0) {
+			System.out.println(a);}
+			
+			}
+
+}

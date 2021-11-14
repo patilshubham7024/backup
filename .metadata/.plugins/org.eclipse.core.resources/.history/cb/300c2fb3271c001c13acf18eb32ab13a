@@ -1,0 +1,14 @@
+class ExceptionHandling {
+	static void meth() {
+		try {
+			
+		}
+		catch(Exception e) {
+			
+		}
+	}
+	public static void main(String[] args) {
+		meth();
+	}
+
+}

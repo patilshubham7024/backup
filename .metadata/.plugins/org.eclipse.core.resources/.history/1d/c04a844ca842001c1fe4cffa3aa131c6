@@ -1,0 +1,27 @@
+package collectiondemo;
+
+interface a {
+	static void run() {
+System.out.println("Int a");
+	}
+}
+
+interface b {
+	default void run() {
+		System.out.println("Int a");
+	}
+}
+
+interface Test extends a, b {
+//	@Override
+//	default void run() {
+//		a.super.run();
+//	}
+}
+class test implements Test {
+	
+	public static void main(String[] args) {
+		Test t = new test();
+		t.run();
+	}
+}

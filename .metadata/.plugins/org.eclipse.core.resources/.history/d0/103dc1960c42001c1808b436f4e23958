@@ -1,0 +1,11 @@
+package org.maven.apache.Log4j;
+
+import org.maven.apache.Log4j.*;
+
+public class Log4jTest {
+	static final Logger LOGGER = Logger.getLogger("My Log")
+	public static void main(String[] args) {
+		LOGGER.fine(null);
+	}
+
+}

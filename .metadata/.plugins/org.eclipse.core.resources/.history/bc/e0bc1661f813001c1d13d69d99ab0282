@@ -1,0 +1,13 @@
+package Pckg2;
+import static java.lang.System.*;
+public class Boat {
+	{System.out.println("Block1");}
+
+	public static int Xy() {System.out.println("Xy Meth");
+	return 0;}
+	public static void main(String[] args) {
+		out.println(Boat.Xy());
+		Boat.Xy();
+		Boat b = new Boat();
+		}
+} 

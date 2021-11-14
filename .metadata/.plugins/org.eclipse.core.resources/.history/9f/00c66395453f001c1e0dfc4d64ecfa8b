@@ -1,0 +1,28 @@
+package ThreadDemo;
+class ThreadDemo {
+	static int x;
+	public static void main(String[] args) throws InterruptedException {
+		System.out.println("Start");
+
+		Thread t1 = new Thread(
+				() ->{
+			for (int i = 1; i <= 5; i++) {
+				System.out.println("x1: "+x++ + " t1: " + i);
+			try {Thread.sleep(1000);} catch (InterruptedException e) {}
+			}});
+		
+		Runnable obj2 = new Runnable() {
+			public void run() {
+				for (int i = 1; i <= 5; i++) {
+					System.out.println("x2: "+x++ +Thread.currentThread()+i);
+				try {Thread.sleep(1000);} catch (InterruptedException e) {}
+				}}};
+				
+		Thread t2 = new Thread(obj2);
+		t2.setPriority(10);
+//		Thread.sleep(10);
+		t2.start();
+		t1.start();
+		System.out.print(Thread.currentThread()+" END	"+x);
+	}
+	}

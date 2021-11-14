@@ -1,0 +1,15 @@
+package collectiondemo;
+
+interface a{
+	default void run() {
+		
+	}
+}
+interface b{
+	
+}
+
+
+interface Test extends a,b{
+
+}

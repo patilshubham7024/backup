@@ -1,0 +1,25 @@
+package loggerpractice;
+
+import java.io.IOException;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+import java.util.logging.XMLFormatter;
+
+public class MyLogger {
+	final static Logger LOGGER = Logger.getLogger("MyLogger");
+
+	public static void main(String[] args) throws SecurityException, IOException {
+		FileHandler Handler = new FileHandler("D:\\MyLog.log");
+		Handler.setLevel(Level.ALL);
+
+		XMLFormatter Formatter = new XMLFormatter();
+		Handler.setFormatter(Formatter);
+
+		LOGGER.addHandler(Handler);
+		LOGGER.finer("Finer");
+		LOGGER.severe("severe problem");
+	}
+}

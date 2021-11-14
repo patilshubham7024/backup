@@ -1,0 +1,16 @@
+public class City {
+	String cityName;
+	int pincode;
+	City(){
+		cityName= "Kolhapur";
+		pincode=416109;
+	}
+	
+	public static void main(String[] args) {
+		City c1=new City();
+		City c2=new City();
+		City c3=new City();
+		System.out.println("Name- "+c1.cityName +"Pin- "+c1.pincode);
+	}
+
+}

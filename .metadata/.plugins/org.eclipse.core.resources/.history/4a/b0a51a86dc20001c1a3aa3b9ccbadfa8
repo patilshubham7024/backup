@@ -1,0 +1,11 @@
+package Pattern;
+
+public class Test {
+	int reverse(int num) {
+		return rev;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

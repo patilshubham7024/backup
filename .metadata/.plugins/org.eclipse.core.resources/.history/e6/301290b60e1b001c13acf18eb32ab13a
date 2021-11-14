@@ -1,0 +1,16 @@
+class HCFLCM {
+	static int HCF(int i, int j) {
+		int x=0;
+		for(x=1;x<=j||x<=j;x++) {
+			if(x%i==0&&x%j==0) {
+				break;
+			}
+		}
+		return x;
+	}
+	public static void main(String[] args) {
+int x=HCF(5,10);
+		System.out.println("Hcf "+x);
+	}
+
+}

@@ -1,0 +1,13 @@
+package ThreadDemo;
+public class Armstrong {
+
+	public static void main(String[] args) {
+		int t1=153;
+		int length = 0;
+		while(t1!=0) {
+			
+		}
+		
+	}
+
+}

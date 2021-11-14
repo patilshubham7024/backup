@@ -1,0 +1,17 @@
+
+public class MyProg {
+ String name="Shubham";
+	public static void main(String[] args) {
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	System.out.println("name");
+	}
+
+}

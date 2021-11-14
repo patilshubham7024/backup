@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.util.stream.*;
+
+class fromula {
+	double area(double h, double b) {
+		double x=h*b/2;
+		System.out.println(x);
+		return x;
+	}
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+//		fromula a= new fromula();
+//		a.area(h, b);
+	String s = in.nextLine();
+	System.out.println("Please select the shape");
+	if(s=="a") {
+		System.out.println("Please enter heihgt");
+		int h= in.nextInt();
+		System.out.println("Please enter Base");
+		int b= in.nextInt();
+		fromula a= new fromula();
+
+	}
+	
+	}
+
+	
+}

@@ -1,0 +1,14 @@
+package Pattern;
+
+public class Patt15 {
+
+	public static void main(String[] args) {
+		int n=4;
+		char x=64;
+		for(int i=0;i<=n;i++) {
+			for(int j=1;j<=(n-i)*2;j++)System.out.print(" ");
+			
+			for(int j=1;j<;) System.out.println();
+		}
+	}
+}

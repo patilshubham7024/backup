@@ -1,0 +1,32 @@
+
+public class Flight {
+	String from, to, dep, rtrn;
+	int notr;
+	Flight(String from, String to){
+	this.dep=dep;
+	this.from=from;
+	}
+			
+			Flight(String dep,String 
+					
+					
+					
+					Flight(rtrn int notr){
+		
+		this.dep=dep;
+		this.notr=notr;
+		System.out.println("From "+this.from);
+		System.out.println("To "+this.to);
+		System.out.println("Date of departure: "+this.dep);
+		System.out.println("No of Travellers: "+this.notr);
+	
+		}
+	public static void main(String[] args) {
+		String f="Kolhapur",to ="Bangalore", dep="11-07-2021",rtrn="15-08-2021";
+		int notr=2;
+		Flight x =new Flight(f, to, dep, rtrn, notr);
+
+
+	}
+
+}

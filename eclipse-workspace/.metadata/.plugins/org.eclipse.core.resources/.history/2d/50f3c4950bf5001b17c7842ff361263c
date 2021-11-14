@@ -1,0 +1,14 @@
+class fromula {
+	double area(double h, double b) {
+		double a=h*b/2;
+		return a;	
+	}
+	public static void main(String[] args) {
+		double h, b;
+		h=4;
+		b=6;
+		fromula a= new fromula();
+		a.area(h, b);
+	}
+
+}

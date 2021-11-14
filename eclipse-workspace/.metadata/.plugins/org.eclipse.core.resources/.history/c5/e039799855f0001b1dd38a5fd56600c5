@@ -1,0 +1,15 @@
+public class Passport {
+	String Name;
+	int age;
+	long mob;
+	Passport(){
+		Name="Shubham";
+		age=24;
+		mob=7757977024l;
+	}
+	public static void main(String[] args) {
+		Passport p=new Passport();
+		System.out.println("Name="p.name+"\nAge="+p.age+"Mobile numer="+p.mob);
+	}
+
+}

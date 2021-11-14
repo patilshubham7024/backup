@@ -1,0 +1,10 @@
+
+public class Player {
+public static void main(String[] args) {
+	Player P = new Player();
+	System.out.print(P);
+	
+	Player p = new Player();
+	System.out.println(p);
+}
+}

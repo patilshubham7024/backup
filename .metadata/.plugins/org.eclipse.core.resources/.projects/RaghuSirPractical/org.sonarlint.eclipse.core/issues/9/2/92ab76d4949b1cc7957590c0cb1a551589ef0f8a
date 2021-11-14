@@ -1,0 +1,22 @@
+
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ï“ŠÚHŒRMAJORZ
+CODE_SMELL
+c
+java:S2251"9"i" is incremented and will never reach "stop condition".(ŸšãíøÿÿÿÿHRMAJORZBUG
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ŸšãíøÿÿÿÿHRMAJORZ
+CODE_SMELL
+[
+java:S1197	"*Move the array designators [] to the type.(»‹”âùÿÿÿÿHRMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿH’RMAJORZ
+CODE_SMELL
+ˆ	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(ŸšãíøÿÿÿÿH“RMAJORZ
+CODE_SMELL
+|	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø÷H”RMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•‚ù„H•RMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀîéÉÿÿÿÿÿH–RMINORZ
+CODE_SMELL
+N
+java:S2189""Correct this loop's end condition.(ŸšãíøÿÿÿÿH—RBLOCKERZBUG

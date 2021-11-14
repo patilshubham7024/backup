@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Happy{static Scanner s = new Scanner(System.in);
+	
+	public static void main(String []Shubham){
+		System.out.println("Enter No");
+//		int n = s.nextInt();
+		int n=143;
+		int temp=n,sqr,sum=0;
+		while(temp>9) {
+		do{
+			int dig=temp%10;
+			sqr=dig*dig;
+			sum=sum+sqr;System.out.println(sum+" "+temp);
+			temp=temp/10;
+		}while(temp!=0);
+		}
+		if(sum==1 || sum==7)System.out.println("Happy");
+		else System.out.println("Not Happy");
+	
+	}
+}

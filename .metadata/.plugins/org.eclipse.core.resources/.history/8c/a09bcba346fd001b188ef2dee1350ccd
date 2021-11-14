@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+class upi extends Home{int j,k;
+					void upi(){
+					if(Checkid()) {
+								j=1;}
+					if(Checkp()) {
+								k=1;}
+						
+					if(j==1 && k==1){
+//					return true;
+					}
+//					else return false;
+					}
+	 boolean Checkid() {
+					 System.out.println("Enter UPI id......");
+					 System.out.println("17");String i = n.nextLine();
+					 System.out.println("18");if(this.i==i) {
+						System.out.println("id ok");
+						return true;
+					}
+			else{System.out.println("");
+						System.out.println("Returning error");
+						error('i');
+						return false;}
+				}
+	 boolean Checkp(){
+		System.out.println("Enter password");
+					String p = n.nextLine();
+					if(this.p.equals(p)) {
+					return true;
+					}
+					else{
+						error('p');
+					return false;}
+				}
+	 void error(char x) {
+		if(x=='p') {
+			System.out.println("Incorrect password");
+			Checkp();
+		}
+		if(x=='i') {
+			System.out.println("Id not found");
+			Checkid();	
+		}
+	}
+}

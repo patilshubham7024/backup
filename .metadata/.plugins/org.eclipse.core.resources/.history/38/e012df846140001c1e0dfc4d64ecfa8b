@@ -1,0 +1,8 @@
+package ThreadDemo;
+
+public class StrongNumber {
+public static void main(String[] args) {
+	int number=153;
+	while(number!=0)
+}
+}

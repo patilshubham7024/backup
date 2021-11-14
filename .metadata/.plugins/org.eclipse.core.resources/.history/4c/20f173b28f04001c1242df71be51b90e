@@ -1,0 +1,19 @@
+package test222;
+
+ class Living {
+	 void eat() {
+		 System.out.println("Super class");
+	 }
+}
+class snake extends Living{
+	@Override
+	void eat() {
+		System.out.println("SubClass");
+	}
+}
+class Test{
+	public static void main(String[] args) {
+		Living l = new snake();
+		
+	}
+}

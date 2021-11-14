@@ -1,0 +1,17 @@
+package WrapperDemo;
+
+import java.io.FileReader;
+import java.util.LinkedList;
+
+import MyException.MyException;
+
+public class demo {
+	
+	public static void main(String[] args) throws ArithmeticException{
+		int age=10;
+		int count=1;
+	
+		LinkedList list = new LinkedList();
+	
+	}
+}

@@ -1,0 +1,9 @@
+class HCFLCM {
+	static int HCF(int i, int j) {
+		
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

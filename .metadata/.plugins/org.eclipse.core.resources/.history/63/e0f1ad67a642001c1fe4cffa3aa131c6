@@ -1,0 +1,16 @@
+package collectiondemo;
+
+public class test {
+
+	public static void main(String[] args) {
+		int x=10;
+		Integer q=x;
+		Integer a= new Integer(x);
+		Integer y = (Integer)(x);
+		System.out.println(q);
+		System.out.println(a);
+		System.out.println(y);
+		
+	}
+
+}

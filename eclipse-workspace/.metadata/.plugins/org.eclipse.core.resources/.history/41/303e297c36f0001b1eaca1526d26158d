@@ -1,0 +1,10 @@
+
+public class Product {
+	String type;
+	int qty, price;
+
+	public static void main(String[] args) {
+		
+	}
+
+}

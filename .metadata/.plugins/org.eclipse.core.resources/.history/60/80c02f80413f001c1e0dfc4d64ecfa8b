@@ -1,0 +1,26 @@
+package ThreadDemo;
+
+class ThreadDemo {
+	static int x;
+	public static void main(String[] args) throws InterruptedException {
+		Runnable obj = new Runnable() {
+			public void run() {
+				for (int i = 1; i <= 5; i++)
+					System.out.println("x1: "+x++ + " t1: " + i);
+			}
+		};
+		Thread t1 = new Thread(obj);
+		Runnable obj2 = new Runnable() {
+			public void run() {
+				for (int i = 1; i <= 5; i++)
+					System.out.println("x2: "+x+" t2: "+i);
+			}
+		};
+		Thread t2 = new Thread(obj2);
+		t1.start();
+		t2.start();
+		Thread.sleep(10);
+		System.out.println("END	"+x);
+
+	}
+}

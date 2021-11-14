@@ -1,0 +1,36 @@
+package collectiondemo;
+import java.util.Collection;
+import java.util.*;
+
+public class CollectionDemo {
+
+	
+	public static void main(String[] args) {
+		List<Company> companies= new LinkedList<Company>();
+		
+		companies.add(new Company(1,"Patil Electricals", "Electrical", 60, 2020));
+		companies.add(new Company(2,"Organic Muley", "Pharmacy", 75, 2021));
+		companies.add(new Company(2,"Aishwarya Films", "Fashion Designing", 60, 2017));
+		companies.add(new Company(4,"Hema Beuty Parlour", "Fashion Designing", 80, 2020));
+		companies.add(new Company(5,"Kavya Catering", "Health",70,2021));
+		companies.add(new Company(6,"Sahu Catering", "Health",70,2020));
+		companies.add(new Company(7,"Ravi Medicals", "Pharmacy", 60, 2018));
+		
+
+		Set<Student> students = new HashSet<Student>();
+
+		students.add(new Student(1,"Shubham","Electrical",2020,83));
+		students.add(new Student(2,"Kaavya","Civil",2021,80));
+		students.add(new Student(3,"Akash","Mechanical",2020,90));
+		students.add(new Student(4,"Hema","ECE",2021,70));
+		for(Company c : companies){
+//			System.out.println(c.id);
+//			for(Student s: students) {
+//				if(s.getPercentage()>=c.getReqPercentage())
+//				System.out.println("Eligible: "+ s.getName()+" "+s.getPercentage());
+//			}
+		}
+		System.out.println(Company.count);
+	}
+
+}

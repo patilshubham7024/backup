@@ -1,0 +1,20 @@
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+class UPITest extends HomeTest{String i;
+UPITest(){
+	System.out.println("WelCome to UPI");
+	enterid();
+}
+void enterid() {
+	System.out.println("Enter ID");
+	String id="777";
+	
+	ResourceBundle bundle = ResourceBundle.getBundle("this.i", Locale.US);
+	//String i = n.nextLine();
+	if(this.i.equals(id)) {
+		System.out.println("ID Success");
+	}
+		
+}
+}

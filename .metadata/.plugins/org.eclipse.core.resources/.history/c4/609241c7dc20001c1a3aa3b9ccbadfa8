@@ -1,0 +1,15 @@
+package Pattern;
+
+public class Test {
+	Boolean isArm(int num) {
+		int temp=num
+		while(temp%10!=0) {
+			
+		}
+		return false;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

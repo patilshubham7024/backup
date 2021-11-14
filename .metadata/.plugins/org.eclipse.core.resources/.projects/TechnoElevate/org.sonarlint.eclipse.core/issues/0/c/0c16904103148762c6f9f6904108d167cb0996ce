@@ -1,0 +1,16 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(É¡¤úÿÿÿÿ8Ö›Ë”Ç/H¦RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÁÀ·Óÿÿÿÿÿ8Ö›Ë”Ç/H¥RMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+X
+java:S1659"%Declare "reverse" on a separate line.(ÿ¥Á8Ö›Ë”Ç/H£RMINORZ
+CODE_SMELL
+b
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8Ö›Ë”Ç/H RMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÌHŸRMINORZ
+CODE_SMELL

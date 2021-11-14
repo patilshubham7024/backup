@@ -1,0 +1,9 @@
+package ThreadDemo;
+
+public class Demo1 extends Thread{
+
+	public static void main(String[] args) {
+		
+	}
+
+}

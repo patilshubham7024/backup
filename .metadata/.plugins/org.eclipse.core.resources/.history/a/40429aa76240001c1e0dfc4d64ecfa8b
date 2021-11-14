@@ -1,0 +1,22 @@
+package ThreadDemo;
+
+public class StrongNumber {
+public static void main(String[] args) {
+	int number=159;
+	int temp=number;
+	int Strong=0;
+	while(temp!=0) {
+		int rem=temp%10;
+		int mul=1;
+		while(rem!=0) {
+			mul=mul*rem;
+			rem--;
+		}Strong=Strong+mul;
+		temp=temp/10;
+	}
+	
+	if(number==Strong)System.out.println("Strong no");
+
+	else System.out.println("not strong no");
+}
+}

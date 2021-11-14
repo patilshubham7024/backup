@@ -1,0 +1,25 @@
+
+public class MyProg {
+	static byte a=127;
+	short b= 32767;
+	int c=2147483647;
+	long d=9223372036854775807l;
+	String name="Shubham";
+	MyProg(){
+		a=111;
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		int a=127;
+		short b= 32767;
+		int c=2147483647;
+		long d=9223372036854775807l;
+		MyProg m=new MyProg();
+		System.out.println(m.a +""+a);
+		
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+
+}

@@ -1,0 +1,15 @@
+package WrapperDemo;
+
+import java.io.File;
+
+public class FileCreation {
+
+	public static void main(String[] args) throws IOException {
+		File file = new File("D:\\Goooooood");
+		
+		
+		
+		file.mkdir();
+		}
+
+}

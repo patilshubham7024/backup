@@ -1,0 +1,20 @@
+class UPITest extends HomeTest{String id="777";
+UPITest(){
+	System.out.println("WelCome to UPI");
+	enterid();
+}
+void enterid() {
+	System.out.println("Enter ID");
+	
+	
+		
+	}
+void enteri(){
+	String i = n.nextLine();
+	System.out.println("id="+i);
+	if(i.equals(id)) {
+		System.out.println("ID Success");
+	}
+		
+}
+}

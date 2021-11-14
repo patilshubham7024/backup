@@ -1,0 +1,23 @@
+class Test{
+	int a=8;
+	int b;
+	Test(int a, int b){
+		this.a = a;
+		this.b = b;
+		System.out.println("a = " + a + "\nb = " + b);
+
+		
+	}
+	
+
+	public static void main(String[] args){
+		int a = 0;
+		int b = 0;
+		Test t = new Test(10, 20);
+		System.out.println("a = " + t.a + "\nb = " + b);
+		
+			
+			}
+			}
+	
+}

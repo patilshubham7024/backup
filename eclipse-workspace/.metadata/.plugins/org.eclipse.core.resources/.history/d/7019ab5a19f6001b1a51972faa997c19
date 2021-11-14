@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class PayApp {
+	void payBill(long cno, int cvv, String exdate) {
+		long a=12345;
+		int b=222;
+		String c= "01-01-21";
+		if(cno!=a) {
+			System.out.println("Please enter valid card number");
+		}
+		else if(cvv!=b) {
+			wrong();		}
+		else if(exdate!=c) {
+			wrong();		}
+		else success();
+	}
+	void payBill(String upi) {
+	String a="7757s";
+	if (upi!=a) {
+		System.out.println("Please enter valid card number");
+	}
+	else success();
+	}
+	void payBill(String uid, String pwd) {
+		String a="7757s", b="1234";
+		if (a!=uid) {
+			System.out.println("Please enter a valid username");
+		}
+		else if(b!=pwd) {
+			System.out.println("Incorrect password\nForgot password??");
+		}
+	}
+	void wrong() {System.out.println("Something went wrong.\nPlease check credentials you entered");
+		
+	}
+	void success() {
+		System.out.println("Validation Successful");
+	}
+	public static void main(String[] args) {
+		Scanner n= new Scanner(System.in);
+		System.out.println("Hi SHUBHAM\nHow are you today??");
+		System.out.println("Would you like to pay bill now??");
+	}
+
+}

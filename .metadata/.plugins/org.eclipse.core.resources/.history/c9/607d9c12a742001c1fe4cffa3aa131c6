@@ -1,0 +1,13 @@
+package collectiondemo;
+
+interface a{
+	
+}
+interface b{
+	
+}
+
+
+public interface Test {
+
+}

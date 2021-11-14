@@ -1,0 +1,32 @@
+package WrapperDemo;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+import MyException.MyException;
+
+public class demo {
+	
+	public static void main(String[] args) throws ArithmeticException{
+		int age=10;
+		int count=1;
+	
+		try{
+			if(age<18)throw new MyException("Check the age");
+		System.out.println(age/count);
+		String name=null;
+		ArithmeticException e=new ArithmeticException();
+		FileReader file = new FileReader("C:\\Users\\patil\\OneDrive\\"
+				+ "Techno Elevate\\Java\\7. collection.pdf");
+		System.out.println(file);
+		throw e;
+	}catch(ArithmeticException e){
+		System.out.println("Cant divide with zero...");
+	} catch (FileNotFoundException e) {
+		System.out.println("File nor found");
+	}finally {
+		System.out.println("...END...");
+	}
+	
+	}
+}

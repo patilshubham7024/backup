@@ -1,0 +1,10 @@
+
+f
+java:S1854"5Remove this useless assignment to local variable "i".(Ê’þŒúÿÿÿÿHÉARMAJORZ
+CODE_SMELL
+W
+java:S1481"&Remove this unused "i" local variable.(Ê’þŒúÿÿÿÿHÊARMINORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HÌARMINORZ
+CODE_SMELL

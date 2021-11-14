@@ -1,0 +1,16 @@
+class Test{
+	int a=8;
+	int b;
+	Test(int a, int b){
+		this.a = a;
+		this.b = b;
+		System.out.println("a = " + a + "\nb = " + b);
+
+		
+	}
+	
+
+	
+			}
+	
+}

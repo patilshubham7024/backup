@@ -1,0 +1,31 @@
+
+public class PayApp {
+	void payBill(long cno, int cvv, String exdate) {
+		long a=12345;
+		int b=222;
+		String c= "01-01-21";
+		if(cno!=a) {
+			System.out.println("Please enter valid card number");
+		}
+		else if(cvv!=b) {
+			wrong();}
+		else if(exdate!=c) {
+			wrong();
+		}
+	}
+	void payBill(String upi) {
+		
+	}
+	void payBill(String uid, String pwd) {
+		
+	}
+	void wrong() {System.out.println("Something went wrong.\nPlease check credentials you entered");
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hi SHUBHAM\nHow are you today??");
+		
+	}
+
+}

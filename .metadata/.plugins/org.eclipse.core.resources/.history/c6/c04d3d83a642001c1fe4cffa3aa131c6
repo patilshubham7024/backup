@@ -1,0 +1,63 @@
+package collectiondemo;
+
+public class Company implements Comparable{
+	int id;
+	private String name;
+	private String reqStream;
+	private int reqPercentage;
+	private int reqYOP;
+	public static int count;
+	public int hashCode() {
+		return id;
+	}
+	public boolean equals() {
+		System.out.println("equals() of Company");
+		return false;
+	}
+	public String toString(){
+		System.out.println("toString() of Student");
+		return "Name: "+name+" "+reqStream+" "+reqPercentage+" "+reqYOP;
+	}
+	Company(){}
+	Company(int id, String name,String reqStream, int reqPercentage,int reqYOP){
+		this.id=id;
+		this.name = name;
+		this.reqStream=reqStream;
+		this.reqYOP=reqYOP;
+		this.reqPercentage=reqPercentage;
+		}
+	@Override
+	public int compareTo(Object o) {
+		Company c = (Company)o;
+		count++;
+//		System.out.println("compareTo() of Company "+c.id);
+		return c.id;
+	}
+	public int getID() {
+		return this.id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getReqStream() {
+		return reqStream;
+	}
+	public void setReqStream(String reqStream) {
+		this.reqStream = reqStream;
+	}
+	public int getReqPercentage() {
+		return reqPercentage;
+	}
+	public void setReqPercentage(int reqPercentage) {
+		this.reqPercentage = reqPercentage;
+	}
+	public int getReqYOP() {
+		return reqYOP;
+	}
+	public void setReqYOP(int reqYOP) {
+		this.reqYOP = reqYOP;
+	}
+}

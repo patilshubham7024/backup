@@ -1,0 +1,9 @@
+public class City {
+	String cityName;
+	int pincode;
+	public static void main(String[] args) {
+
+
+	}
+
+}

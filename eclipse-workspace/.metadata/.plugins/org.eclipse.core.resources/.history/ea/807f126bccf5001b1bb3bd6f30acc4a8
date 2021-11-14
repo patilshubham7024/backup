@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+class fromula {
+	static double areat(double h, double b) {
+		double x=h*b/2;
+		System.out.println("Area of the traingle is "+x);
+		return x;
+	}
+	double areac(double r) {
+		double x=22/7*r;
+	return x;
+	}
+	static double Printarea(double x) {
+		System.out.println("Area is "+x);
+	}
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("Please select the shape\n1)Traingle\n2)Circle");
+	int s = in.nextInt();
+	if(s==1) {
+		System.out.println("Please enter height");
+		int h= in.nextInt();
+		System.out.println("Please enter Base");
+		int b= in.nextInt();
+		Printarea(fromula.areat(h, b));
+		}
+	else if (s==2){
+		System.out.println("Please enter Radious");
+		double r= in.nextInt();
+		fromula c=new fromula();
+		//double x=c.areac(r);
+		Printarea(fromula.areac(r));
+	}
+	else System.out.println("Bye");
+	
+	boolean x;
+	if(x) {
+		
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¾è†™ıÿÿÿÿHÁRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(†ÂÆ+HÂRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(½â„ìHÃRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHÄRMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡‹·ıÿÿÿÿHÅRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡Ÿ¢¨ûÿÿÿÿHÆRMINORZ
+CODE_SMELL
+|
+java:S3973
+"HUse indentation to denote the code conditionally executed by this "for".(øşéşÿÿÿÿHÇRCRITICALZ
+CODE_SMELL

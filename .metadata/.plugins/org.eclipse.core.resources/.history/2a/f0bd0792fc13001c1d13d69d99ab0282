@@ -1,0 +1,15 @@
+package Pckg2;
+import static java.lang.System.*;
+public class Boat {
+	{System.out.println("StaticBlock1");}
+	{System.out.println("nonStaticBlock1");}
+
+	public static int Xy() {System.out.println("Xy Meth");
+	return 0;}
+	public static void main(String[] args) {
+		Boat b = new Boat();
+		out.println(Boat.Xy());
+		Boat bv = new Boat();
+		Boat.Xy();
+		}
+}

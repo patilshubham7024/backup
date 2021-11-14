@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class fromula {
+	double area(double h, double b) {
+		double x=h*b/2;
+		System.out.println(x);
+		return x;
+	}
+	public static void main(String[] args) {
+		java.util.Scanner in = new Scanner(System.in);
+		double h, b;
+		h=4;
+		b=6;
+		fromula a= new fromula();
+		a.area(h, b);
+	String s = in.nextLine();
+	System.out.println("Please select the shape");
+	if(s=a)
+	
+	}
+
+	
+}

@@ -1,0 +1,12 @@
+package Pattern;
+
+public class Test {
+	int isArm(int num) {
+
+		return rev;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

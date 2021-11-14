@@ -1,0 +1,10 @@
+class HCFLCM {
+	static int HCF(int i, int j) {
+		return x;
+		
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

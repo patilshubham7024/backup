@@ -1,0 +1,15 @@
+public class Employee {
+	String name,job;
+	int sal,hireyear;
+	Employee(int x){
+		name="Shubham";
+		job="Developer";
+		hireyear=x;
+		sal=10000;
+	}
+	public static void main(String[] args) {
+		Employee e=new Employee(2021);
+		System.out.println("Name= "+e.name+"\nJob Profile= "+e.job+"\nYear of hiring= "+e.hireyear+"\nSalary= "+e.sal);
+	}
+
+}

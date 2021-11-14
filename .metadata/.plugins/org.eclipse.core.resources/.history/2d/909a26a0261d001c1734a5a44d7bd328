@@ -1,0 +1,13 @@
+package Pattern;
+class Patt4 {
+	public static void main(String[] Shubham) {
+		int n=4;
+		for(int i=n;i>0;i--){
+			for(int j=n;j>0;j--) {
+				if(i>=j)System.out.print(j+" ");
+			}
+			System.out.println();	
+		
+		}
+	}
+}

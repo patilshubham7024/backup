@@ -1,0 +1,18 @@
+package ThreadDemo;
+
+final class Demo2 implements Runnable{
+	final int i=0;
+	Demo2(){
+//		new Demo2();
+	}
+	@Override
+	public void run() {
+		for(int i=1;i <=5;i++) {
+			System.out.println("Talking...");
+			try{
+				Thread.sleep(2000);
+			}catch(Exception e) {
+			}
+			}
+			}
+			}

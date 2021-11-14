@@ -1,0 +1,6 @@
+ class EnterTest {
+	 public static void main(String[] args) {
+		String i=k.nextLine();
+				
+	}
+}

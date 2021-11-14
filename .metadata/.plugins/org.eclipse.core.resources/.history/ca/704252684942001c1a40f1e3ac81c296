@@ -1,0 +1,23 @@
+import java.util.*;
+public class MapPractice {
+	// Function to remove duplicates from an ArrayList
+	public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) {
+		// Create a new LinkedHashSet
+		Set<T> set = new LinkedHashSet<>();
+		// Add the elements to set
+		set.addAll(list);
+		// Clear the list
+		list.clear();
+		// add the elements of set
+		// with no duplicates to the list
+		list.addAll(set);
+		// return the list
+		return list;
+	}
+	public static void main(String args[]) {
+		ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1, 10, 1, 2, 2, 3, 10, 3, 3, 4, 5, 5));
+		System.out.println("ArrayList with duplicates: " + list);
+		ArrayList<Integer> newList = removeDuplicates(list);
+		System.out.println("ArrayList with duplicates removed: " + newList);
+	}
+}

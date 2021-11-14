@@ -1,0 +1,14 @@
+
+public class MyProg {
+	byte a=127;
+	short b= 32767;
+	int c=2147483647;
+	long 9223372036854775807;
+	String name="Shubham";
+	public static void main(String[] args) {
+		byte a=1;
+		System.out.println(a);
+
+	}
+
+}

@@ -1,0 +1,17 @@
+class ExceptionHandling {
+	static void meth() {
+		try {
+			
+		}
+		catch(Exception e) {
+			meth2();
+		}
+	}
+	void meth2() {
+		System.out.println("Meth2222");
+	}
+	public static void main(String[] args) {
+		meth();
+	}
+
+}

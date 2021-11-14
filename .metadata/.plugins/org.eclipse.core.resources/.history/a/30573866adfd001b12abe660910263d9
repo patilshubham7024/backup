@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+class EnterTest {static Scanner n= new Scanner(System.in);
+	 public static void main(String[] args) {
+		String i=n.nextLine();
+				
+	}
+}

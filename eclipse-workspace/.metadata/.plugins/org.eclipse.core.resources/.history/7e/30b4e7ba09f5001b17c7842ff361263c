@@ -1,0 +1,10 @@
+
+public class Person {
+	void run() {
+		System.out.println("Fast Fast Run ");
+	}
+	public static void main(String[] Shubham) {
+		
+	}
+
+}

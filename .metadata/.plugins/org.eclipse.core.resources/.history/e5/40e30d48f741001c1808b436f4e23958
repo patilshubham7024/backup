@@ -1,0 +1,23 @@
+package loggerpractice;
+
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
+
+public class MyLogger {
+	final static Logger LOGGER = Logger.getLogger("MyLogger");
+
+	public static void main(String[] args) {
+		ConsoleHandler consoleHandler = new ConsoleHandler();
+		consoleHandler.setLevel(Level.ALL);
+
+		SimpleFormatter simpleFormatter = new SimpleFormatter();
+		consoleHandler.setFormatter(simpleFormatter);
+
+		LOGGER.addHandler(consoleHandler);
+
+		LOGGER.finer("Finer");
+		LOGGER.severe("sever problem");
+	}
+}

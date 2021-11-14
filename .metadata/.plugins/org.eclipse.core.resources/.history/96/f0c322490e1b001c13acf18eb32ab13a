@@ -1,0 +1,15 @@
+class HCFLCM {
+	static int HCF(int i, int j) {
+		int x=0
+		for(x=1;x<=j||x<=j;) {
+			if(x%i==0&&x%j==0) {
+				break;
+			}
+		}
+		return x;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

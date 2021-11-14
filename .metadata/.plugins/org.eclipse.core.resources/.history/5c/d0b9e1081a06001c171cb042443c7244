@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.lang.*;
+class Scanner01 {
+	
+	public static void main(String[] args) {
+		 Scanner s = new Scanner(System.in);
+		System.out.println("Enter Radius");
+		 int z = s.nextInt();
+		double a = Math.PI*z*z;
+	System.out.println("Area = "+a+"SqCm");
+	String g = new String();
+	
+	}
+}

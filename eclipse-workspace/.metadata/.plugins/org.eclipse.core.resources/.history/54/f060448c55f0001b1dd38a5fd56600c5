@@ -1,0 +1,14 @@
+public class Passport {
+	String Name;
+	int age;
+	long mob;
+	Passport(){
+		Name="Shubham";
+		age=24;
+		mob=7757977024l;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

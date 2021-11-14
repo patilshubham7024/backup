@@ -1,0 +1,21 @@
+
+public class PayApp {
+	void payBill(long cno, int cvv, String exdate) {
+		
+	}
+	void payBill() {
+		
+	}
+	void payBill() {
+		
+	}
+	void payBill() {
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hi SHUBHAM\nHow are you today??");
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package aptitudetest;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+public class Test{
+	
+	public static void main(String[] args) {
+	ArrayList<Questions> questions = new ArrayList<Questions>();
+	
+	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur name", "XY", "YZ", "Shubham", "BA", "Shubham"));
+	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur City name", "XY", "Kolhapur", "AB", "BA", "Kolhapur"));
+//	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur Father name", "Aiyer", "YZ", "AB", "BA", "Aiyer"));
+	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur Mother name", "XY", "YZ", "Mahadevi", "BA", "Mahadevi"));
+//	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur friend name", "XY", "YZ", "AB", "BA", "YZ"));
+	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur freind2 name", "Chinnaswamy", "YZ", "AB", "BA", "Chinnaswamy"));
+//	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur doggy name", "XY", "Tommy", "AB", "BA", "Tommy"));
+//	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur house name", "Legend House", "YZ", "AB", "BA", "Legend House"));
+	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur company name", "Technoelevate", "YZ", "AB", "BA", "Technoelevate"));
+//	questions.add(new Questions(++Questions.noOfQuestions +" Q.Whats ur State name", "XY", "YZ", "AB", "Karnataka", "Karnataka"));
+
+	int marks=0;
+
+	Iterator q = questions.iterator();
+	Scanner s= new Scanner(System.in);
+	for(Questions o: questions) {
+		System.out.println( q.next());
+		String answer= s.nextLine();
+		if(answer.equals(o.getAnswer()))
+			marks++;
+	}
+	System.out.println("Marks: "+marks+"/"+Questions.noOfQuestions);
+
+	if(marks>=Questions.noOfQuestions*0.8)System.out.println("Congratulations");
+	else if(marks>=Questions.noOfQuestions*0.6)System.out.println("Distinction");
+	else if(marks>=Questions.noOfQuestions*0.4)System.out.println("Pass");
+	
+	}	
+}

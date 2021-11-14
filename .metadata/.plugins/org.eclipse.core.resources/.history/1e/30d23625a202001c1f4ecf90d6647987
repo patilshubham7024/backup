@@ -1,0 +1,30 @@
+class Test1 {
+	int x, y, z;
+	Test1 r= new Test1();
+	void login(String un, int pin) {
+		System.out.println(this.r);
+		if(un == "Patil") {
+			if(pin ==7024) {
+				logsuccess();
+			}else System.out.println("Fail-Pwd");
+		}
+		else System.out.println("Fail-un");
+	}
+	void login(String un, String pwd) {
+		if(un== "Patil") {
+			if(pwd == "s7024") {
+				logsuccess();
+			}else System.out.println("Fail-Pwd");
+		}
+		else System.out.println("Fail-un");
+	}
+	void logsuccess() {
+		System.out.println("LogIn Successful");
+	}
+	public static void main(String[] Shubham) {
+		Test1 t = new Test1();
+		t.login("Patil" , 7024);
+		t.login("Patil", "s7024");
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class EnterTest extends UPITest{static Scanner n= new Scanner(System.in);
+		EnterTest() {
+		String i=n.nextLine();
+		System.out.println("Enter");
+		System.out.println(i);
+		String j="7024";
+		if(i.equals(j)) {
+			System.out.println("done");
+		}
+else{System.out.println("Not");}}
+}

@@ -1,0 +1,12 @@
+package Pattern;
+
+public class Patt_Practice {
+
+	public static void main(String[] args) {
+		int n=10,sp=n/2,st=1;
+		for(int i=1;i<=n;i++) {
+			
+		}
+	}
+
+}

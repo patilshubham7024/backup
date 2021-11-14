@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Palindrome {static Scanner s = new Scanner(System.in);
+	static boolean checkPali(int num) {
+		int reverse;
+		do {
+			int r=num%10;
+			reverse=reverse*10+r;
+			
+		}while();
+		
+		return false;}
+	public static void main(String []Shubham){
+		System.out.println("Enter No");
+		int n = s.nextInt();
+		if(checkPali(n))System.out.println("Palindrome");
+		else System.out.println("Not");
+	}
+}

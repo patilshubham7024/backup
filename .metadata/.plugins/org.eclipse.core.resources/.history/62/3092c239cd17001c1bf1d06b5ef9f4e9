@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Happy{static Scanner s = new Scanner(System.in);
+	
+	public static void main(String []Shubham){
+		System.out.println("Enter No");
+		int n = s.nextInt();
+		int temp=n,sqr,sum;
+		do {
+			int dig=temp%10;
+			sqr=dig*dig;
+			sum=sum+sqr;
+			n=n/10;
+		}while(temp%10!=0);
+		if(sum==n)System.out.println("Happy");
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class EnterTest {static Scanner n= new Scanner(System.in);
+	 public static void main(String[] args) {
+		String i=n.nextLine();
+		System.out.println("Enter");
+		System.out.println(i);
+		if(i.equals("ss")) {
+			System.out.println("done");
+		}
+		else{System.out.println("Not");}
+	}
+}

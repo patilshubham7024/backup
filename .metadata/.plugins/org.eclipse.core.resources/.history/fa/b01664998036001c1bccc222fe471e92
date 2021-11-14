@@ -1,0 +1,18 @@
+package WrapperDemo;
+
+import java.util.LinkedList;
+
+public class demo {
+	
+	public static void main(String[] args) throws ArithmeticException{
+
+		LinkedList<String> list = new LinkedList();
+		
+		list.add("Shubham");
+		list.add("Patil");
+		list.add("Kolhapur");
+		
+		
+	
+	}
+}

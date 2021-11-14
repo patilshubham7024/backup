@@ -1,0 +1,22 @@
+package collectiondemo;
+
+interface a {
+	default void run() {
+
+	}
+}
+
+interface b {
+	default void run() {
+
+	}
+}
+
+interface Test extends a, b {
+
+}
+class test implements {
+	public static void main(String[] args) {
+		
+	}
+}

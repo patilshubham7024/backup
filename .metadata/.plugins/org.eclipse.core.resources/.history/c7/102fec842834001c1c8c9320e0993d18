@@ -1,0 +1,30 @@
+package org.patilorg.myegrocery;
+
+import org.patilorg.myegrocery.controller.MyController;
+import org.patilorg.myegrocery.model.User;
+
+public class MyApp {
+	
+	public String toString() {
+		return "Shubham";
+	}
+	public static void main(String[] args) {
+		System.out.println("Start");
+		User user =new User();
+		
+		System.out.println(user);
+		
+		
+		
+		
+		
+		
+		user.setAge(24);
+		user.setName("Shubham");
+		MyController controller= new MyController();
+		controller.acceptData(user);
+		System.out.println("Khatamm....");
+	
+	}
+
+}

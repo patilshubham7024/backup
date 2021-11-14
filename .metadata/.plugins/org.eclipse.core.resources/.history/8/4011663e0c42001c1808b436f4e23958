@@ -1,0 +1,10 @@
+package org.maven.apache.Log4j;
+
+public class Log4jTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

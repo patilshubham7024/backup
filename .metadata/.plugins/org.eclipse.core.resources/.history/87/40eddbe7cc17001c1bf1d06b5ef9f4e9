@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Happy{static Scanner s = new Scanner(System.in);
+	
+	public static void main(String []Shubham){
+		System.out.println("Enter No");
+		int n = s.nextInt();
+		int temp=n,sqr;
+		do {
+			int dig=temp%10;
+			sqr
+			
+		}while(temp<10);
+	}
+}

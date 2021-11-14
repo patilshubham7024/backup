@@ -1,0 +1,12 @@
+package Pattern;
+
+public class Test {
+	Boolean isArm(int num) {
+		
+		return false;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

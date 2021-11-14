@@ -1,0 +1,22 @@
+class HCFLCM {
+	static int HCF(int i, int j) {
+		int x=0;
+		for(x=i;;x--) {
+			System.out.print(x);
+			if(i%x==0&&j%x==0)break;
+		}
+		return x;}
+	static int LCM(int l,int m) {
+		int y=0;
+		for(y=m;;y++) {
+			if(y%m==0&&y%l==0) break;
+		}
+		return y;}
+	public static void main(String[] args) {
+
+//		int x=HCF(24,36);
+		System.out.println("HCF "+HCF(24,36));
+//		int y=LCM(40,50);
+		System.out.println("LCM "+LCM(40,50));
+	}
+	}

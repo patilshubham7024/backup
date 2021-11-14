@@ -1,0 +1,10 @@
+package ThreadDemo;
+
+public class Demo2 extends Thread{
+	@Override
+	public void run() {
+		for(int i=1;i <=5;i++) {
+			System.out.println("Demo1 run meth");
+			try{Thread.sleep(2000);}catch(Exception e) {
+			}	}
+}}
